@@ -17,6 +17,7 @@ SOURCES += main.cpp\
     watercycle.cpp
 
 HEADERS  += mainwindow.h \
-    watercycle.h
+    watercycle.h \
+    macro.h
 
 FORMS    += mainwindow.ui
