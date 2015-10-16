@@ -22,6 +22,13 @@ private slots:
     void on_u_speedButton_clicked();
     void on_u_queryButton_clicked();
 
+    void setSpeedLabel(qint16 speed);
+    void setWaterLevelLabel(QString waterLevel);
+    void setTemp1Label(qint16 temp1);
+    void setTemp2Label(qint16 temp2);
+
+    void on_u_testButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 
